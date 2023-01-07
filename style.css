@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(224, 219, 219);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(22, 22, 32);
+}
+header, header .input{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    padding: 20px;
+    padding-bottom: 0;
+    border-bottom: 0.5px solid rgba(240, 255, 255, 0.315);
+    width: 100%;
+}
+.headers p{
+    font-size: 25px;
+}
+.header .input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head{
+    gap: 50px;
+    width: 70%;
+    display: flex;
+}
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.option{
+    display: flex;
+}
+.input > div{
+    display: flex;
+}
+.input-section input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+}
+.input-section input::-webkit-search-cancel-button{
+    color: white;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 50em;
+    background: url('clear_white_24dp.svg') no-repeat 100% 100%;
+    color: white;
+    background-size: cover;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  input[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: .3;
+    pointer-events: all;
+  }
+  
+  input[type="search"].dark::-webkit-search-cancel-button {
+    filter: invert(1);
+  }
+.input{
+    /* border: 1px solid white; */
+    background-color: rgb(29, 45, 65);
+    padding: 10px 25px 10px 15px;
+    border-radius: 30px;
+}
+.input-section{
+    width: 80%;
+}
+.option span, .input span{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding-left: 15px;
+    gap: 3px;
+    outline: none;
+    
+}
+.option a{
+    display: flex;
+    gap: 30px;
+    border: 3px solid transparent;
+    margin: 5px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+.option span{
+    padding-left: 0;
+    font-size: 20px;
+    
+}
+ .option > a .active, .option a:hover{
+    border-bottom: 3px solid rgb(0, 217, 255);
+    color: aqua;
+    text-decoration-color: aqua;
+ }
+ .option .word{
+    font-size: 15px;
+ }
+ 
+ .abt p{
+    margin: 5px 0px;
+ }
+.about{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+}
+.about img{
+    width: 60px;
+    height: 80px;
+    border-radius: 10px;
+}
+.more-about {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.more-about span{
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+}
+
+.more-abouts{
+    gap: 20px;
+}
+.more-about a{
+    padding: 8px 18px;
+    display: flex;
+    border: 1px solid aqua;
+    border-radius: 20px;
+}
+
+ /* THE MAIN PART */
+ main{
+    width: calc(100% - 20%);
+    margin: auto;
+ }
+ .info{
+    display: flex;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, black, black, blue);
+ }
